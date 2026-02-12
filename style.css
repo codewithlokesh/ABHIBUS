@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  height: 80px;
+  width: auto;
+  background-color: antiquewhite;
+}
+
+.banner {
+  background-image: url("./images/web-new-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 410px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.banner-box {
+  padding: 1rem;
+  height: 140px;
+  border-radius: 20px;
+  background-color: #fff;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+  /* align-items: center; */
+  border: 1px solid blue;
+}
+.banner-box-top {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 40%;
+}
+.banner-box-services {
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: 50px;
+  font-size: 18px;
+  color: gray;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  align-content: center;
+}
+
+.banner-box-services div {
+  margin: 2px 10px;
+  padding: 6px 3px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.banner-box-services div:hover {
+  background-color: rgba(128, 128, 128, 0.288);
+  border-radius: 10px;
+}
+
+
+.banner-text h3{
+    margin-right: 2rem;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+.banner-box-services div img {
+  width: 2.5rem;
+}
+.banner-box-bottom {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  width: auto;
+  /* background-color: rgba(190, 57, 57, 0.644); */
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 18px;
+  padding: 2px;
+  margin: 4px;
+}
+.btn{
+    border-radius: 1px;
+    background-color: rgba(221, 219, 219, 0.479);
+    height: 100%;
+    width: 10%;
+    font-size: 18px;
+    padding: 20px 5px ;
+}
+.search-btn{
+    background-color: #dc635b;
+    font-size: 22px;
+    padding-left: 25px;
+    border-radius: 0 10px 10px 0;
+}
+.search-btn:hover{
+    background-color: #d83f34;
+    
+}
+
+
+/* card section------------------------- */
+.card-container h2{
+    padding: 10px 0;
+}
+.cards {
+    display: flex;
+
+}
+.card img{
+     width: 20rem;
+}
