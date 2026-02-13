@@ -5,26 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AbhiBus</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/png" href="./images/icons8-bus-32.png" />
   </head>
   <body>
-    <!-- navbar start -->
+    <!-------------------------- navbar start ---------------------->
     <nav class="navbar">
-    <div class="left">
-      <img class="img-logo-left" src="./images/AbhiBus-logo.webp" alt="image-left">
-      <img class="img-logo-right" src="./images/right-logo.png" alt="img-right">
-    </div>
-    </div>
-    <div class="right">
-      <ul>
-        <li><img src="./images/percentage-32.png" alt="">Offers</li>
-        <li><img src="./images/ticket-32.png" alt="">Track Ticket</li>
-        <li><img src="./images/service-32.png" alt="">Need Help?</li>
-        <li><img src="./images/user-32.png" alt="">Login/SignUp</li>
-      </ul>
-    </div>
-  </nav>
+      <div class="left">
+        <img
+          class="img-logo-left"
+          src="./images/AbhiBus-logo.webp"
+          alt="image-left"
+        />
+        <img
+          class="img-logo-right"
+          src="./images/right-logo.png"
+          alt="img-right"
+        />
+      </div>
 
-    <!-- banner starts here -->
+      <div class="right">
+        <ul>
+          <li><img src="./images/percentage-32.png" alt="" />Offers</li>
+          <li><img src="./images/ticket-32.png" alt="" />Track Ticket</li>
+          <li><img src="./images/service-32.png" alt="" />Need Help?</li>
+          <li><img src="./images/user-32.png" alt="" />Login/SignUp</li>
+        </ul>
+      </div>
+    </nav>
+
+    <!------------------------ banner starts here ----------------------->
     <div class="banner">
       <div class="banner-box">
         <div class="banner-box-top">
@@ -47,7 +56,9 @@
           </div>
           <div class="btn" style="flex-grow: 1; margin: 0 2px">Going on</div>
           <div class="btn" style="flex-grow: 2; margin: 0 2px">12/02/2026</div>
-          <div class="btn" style="flex-grow: 1; margin: 0 2px">Lokesh(Today)</div>
+          <div class="btn" style="flex-grow: 1; margin: 0 2px">
+            Lokesh(Today)
+          </div>
           <div class="btn" style="flex-grow: 1; margin: 0 2px">Tomorrow</div>
           <div class="btn search-btn" style="flex-grow: 1; margin: 0 2px">
             Search >
@@ -56,14 +67,93 @@
       </div>
     </div>
 
-    <!-- card section -->
+    <!----------------------- card section --------------------------->
     <div class="card-container">
-      <h2>Bus Booking Discount Offers</h2>
-      <div class="cards">
+      <div>
+        <h2>Bus Booking Discount Offers</h2>
+      </div>
+
+      <div class="card-rapper">
         <div class="card"><img src="./images/card1.jpg" alt="" /></div>
         <div class="card"><img src="./images/card2.jpg" alt="" /></div>
         <div class="card"><img src="./images/card3.jpg" alt="" /></div>
         <div class="card"><img src="./images/card4.jpg" alt="" /></div>
+      </div>
+    </div>
+
+    <div class="card-container">
+      <h2 class="text-h2">Why Choose AbhiBus for Bus Ticket Booking?</h2>
+      <p class="text-p">
+        Experience the next generation of travel with India's 4.8-star rated
+        online bus ticket booking site. Trusted by millions across 6,50,000+
+        routes, AbhiBus combines a massive network of 6,200+ partners with
+        industry-leading innovation. From our AI-powered 'New Bus' filter and
+        360° virtual tours to rigorous safety checks, we ensure every journey is
+        smart, transparent, and built for your comfort and safety.
+      </p>
+    </div>
+
+    <!-- ----------------small cards section--------------------- -->
+    <div class="small-cards-container">
+      <div class="small-card" style="background-color: rgba(0, 128, 0, 0.075)">
+        <div>
+          <img src="./images/home-route.svg" alt="" />
+        </div>
+        <div class="small-card-content">
+          <b>6,50,000+ Bus Routes</b>
+          <p>offering unparalleled choices for your travel needs</p>
+        </div>
+      </div>
+      <div class="small-card" style="background-color: rgba(0, 0, 255, 0.089)">
+        <div>
+          <img src="./images/bus-partner.svg" alt="" />
+        </div>
+        <div class="small-card-content">
+          <b>6200+ Bus Partners</b>
+          <p>ranging from State RTCs to private partners</p>
+        </div>
+      </div>
+      <div class="small-card" style="background-color: rgba(255, 217, 0, 0.13)">
+        <div>
+          <img src="./images/home-ticket.svg" alt="" />
+        </div>
+        <div class="small-card-content">
+          <b>Fastest Bus Booking</b>
+          <p>swift and seamless bus ticket booking experience</p>
+        </div>
+      </div>
+      <div
+        class="small-card"
+        style="background-color: rgba(231, 160, 172, 0.26)"
+      >
+        <div>
+          <img src="./images/24-hour-service.svg" alt="" />
+        </div>
+        <div class="small-card-content">
+          <b>24/7 Customer Support</b>
+          <p>available for all your bus booking needs</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------------bus ticket section----------------------- -->
+    <div class="ticket-container">
+      <div class="ticket-para">
+        <h1>Book Bus Tickets at AbhiBus</h1>
+        <p>From SRTC (State Road Transport Corporation)</p>
+      </div>
+
+      <div class="ticket-cards">
+        <div class="ticket" id="ticket-img">
+          <div class="ticket-top">
+            <img src="./images/APSRTC.jpg" width="120px" alt="ticket-img" />
+          </div>
+          <div class="ticket-bottom">
+            <b>APSRTC</b>
+            <p>Andhra Pradesh State Road Transport Corporation</p>
+            <button class="ticket-btn">Book Now</button>
+          </div>
+        </div>
       </div>
     </div>
   </body>
